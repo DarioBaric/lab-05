@@ -1,0 +1,46 @@
+html {
+    background-image: url("images/bats.gif");
+    background-repeat: repeat;
+    background-size: 250px 280px;
+}
+header{
+    background-image: linear-gradient(45deg, white, orange, black);
+    border-bottom: 2px double black;
+}
+
+body {
+    border: 4px double black;
+    width: 1000px;
+    margin: 0px auto;
+    background-color: white;
+}
+content{
+    border: 3px black;
+}
+.header image{
+    float: left;
+}
+
+h1 {
+    text-indent: 120px;
+    text-shadow: 0 0 3px orange;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: black;
+}
+
+footer{
+    border-top: 2px double black;
+    height: 50px;
+    background-image: linear-gradient(45deg, black, orange, white);
+    text-align: center;
+}
